@@ -1,0 +1,9 @@
+* {
+    background-color: aquamarine;
+}
+table, td, th {
+    border-width: 20%;
+    border: 10px solid;
+    border-collapse: collapse;
+    border-color: black;
+}
