@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
 * {
-    background-color: rgb(209, 238, 228);
+    background-color: rgb(116, 196, 168);
     font-family: "Inconsolata", monospace;
 }
 
@@ -18,6 +18,9 @@ h3 {
 }
 
 p {
+    position: absolute;
+    top: 150px;
+    left: 230px;
     text-align: justify;
     font-weight: bold;
 }
@@ -29,6 +32,7 @@ ul {
 table,
 td,
 th {
+    background-color: rgb(219, 202, 180);
     font-family: "Newsreader", serif;
     border-width: 20%;
     border: 3px solid;
@@ -40,6 +44,7 @@ label {
 }
 form input {
     width: 40%;
+    background-color: rgb(219, 202, 180);
 }
 form input:nth-of-type(3) {
     width: 40%;
