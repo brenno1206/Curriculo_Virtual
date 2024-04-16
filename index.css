@@ -110,7 +110,7 @@ label {
     font-size: 110%;
 }
 
-form input {
+form input, textarea {
     width: 40%;
     background-color: rgb(40, 40, 40);
     border-color: rgb(73, 73, 73);
@@ -122,17 +122,19 @@ form input {
     border-bottom-left-radius: 30px;
 }
 
-form input:nth-of-type(3) {
-    width: 40%;
-    height: 30%;
+textarea {
+    border: solid rgb(73, 73, 73) 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 form input:last-of-type {
-    font-optical-sizing: 130%;
     width: 15%;
     height: 5%;
     margin-top: 3%;
-    margin-left: 15%;
+    margin-left: -27%;
     margin-bottom: 0%;
 }
 
