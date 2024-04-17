@@ -1,145 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
-
 * {
-    background-color: rgb(26, 26, 26);
-    font-family: "Inconsolata", monospace;
-    color: white;
+    background-color: #D9CBBF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #260B01;
     margin: 0;
 }
 
-.Principal header img {
-    margin-top: 2%;
-    border-radius: 100%;
-    border: 3px solid;
-    border-color: brown;
-    margin: auto;
-    display: block;
-    margin-bottom: 2%;
-}
-
-.Principal {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.Principal nav, nav a{
-    display: flex;
-    text-align: left;
-    justify-content: space-around;
-    background-color: brown;
-    padding: 15px;
+nav,
+nav a {
+    background-color: #593325;
+    color: #D9CBBF;
     text-decoration: none;
-
+    padding: 20px;
 }
 
-.Principal h1 {
-    font-size: 400%;
+nav a {
+    border-right: 2px solid #D9CBBF;
 }
 
+.inicio {
+    display: flex;
+}
 
-.Principal p {
+.apresentacao {
+    width: 50%;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.apresentacao h2:first-of-type {
     text-align: center;
-    margin-bottom: 1%;
-    font-size: 20%;
-}
-
-h3 {
-    color: brown;
-    font-size: 25px;
+    padding-bottom: 50px;
 }
 
 p {
-    top: 150px;
-    left: 230px;
-    text-align: justify;
-    font-weight: bold;
+    margin-bottom: 50px;
 }
 
-ul {
-    list-style-type: circle;
+.apresentacao h2:last-of-type {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.Info {
-    margin: 100px;
-    margin-top: 10;
-    margin-left: 33%;
-}
-
-.Info h4 a {
-    margin-left: 25%;
-    font-size: larger;
-}
-
-.Exp {
-    margin: 100px;
-    margin-top: 15%;
-    margin-left: 25%;
-}
-
-table,
-td,
-th {
-    background-color: rgb(245, 133, 133);
-    font-family: "Newsreader", serif;
-    border-width: 20%;
-    border: 2px solid rgb(26, 26, 26);
-    border-collapse: collapse;
-    color: black;
-    font-size: medium;
-    padding: 8px;
-}
-
-thead th,
-tfoot td:last-of-type {
-
-    background-color: brown;
-    color: white;
-}
-
-.Exp h4 a {
-    margin-left: 36%;
-    font-size: larger;
-}
-
-.Cont {
-    margin-left: 35%;
-    margin-top: 10%;
-}
-
-label {
-    font-size: 110%;
-}
-
-form input, textarea {
-    width: 40%;
-    background-color: rgb(40, 40, 40);
-    border-color: rgb(73, 73, 73);
-    border-style: solid;
-    margin-bottom: 3%;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-
+input,
 textarea {
-    border: solid rgb(73, 73, 73) 2px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    background-color: #E6D9CA;
+    font-size: 15px;
 }
 
-form input:last-of-type {
-    width: 15%;
-    height: 5%;
-    margin-top: 3%;
-    margin-left: -27%;
-    margin-bottom: 0%;
+input:first-of-type,
+input:nth-of-type(2) {
+    width: 300px;
 }
 
-.Cont h4 a {
-    margin-left: 19%;
-    font-size: larger;
+.imagens {
+    width: 40%;
+}
+
+.foto {
+    border-radius: 100%;
+    margin-top: 30px;
+
+}
+
+.imagens a:first-of-type {
+    margin-left: 140px;
+}
+
+.main {
+    display: flex;
+}
+
+.info, .exp {
+    width: 40%;
+    height: 150px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info ul li {
+    text-align: left;
+    list-style: circle;
 }
