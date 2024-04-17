@@ -5,42 +5,43 @@
     background-color: rgb(26, 26, 26);
     font-family: "Inconsolata", monospace;
     color: white;
+    margin: 0;
 }
 
 .Principal header img {
-    border-radius: 100px;
+    margin-top: 2%;
+    border-radius: 100%;
     border: 3px solid;
     border-color: brown;
     margin: auto;
     display: block;
+    margin-bottom: 2%;
 }
 
 .Principal {
-    margin: 100px;
     text-align: center;
-    margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.Principal ul {
-    list-style-type: none;
-    font-size: large;
-    line-height: 180%;
+.Principal nav, nav a{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    background-color: brown;
+    padding: 15px;
+    text-decoration: none;
+
 }
 
-.Principal li a,
-h4 a {
-    text-decoration: none;
-    background-color: brown;
-    border: 2px solid brown;
-    border-left: 7px solid brown;
-    border-right: 7px solid brown;
-    border-radius: 30px;
-    margin-right: 3%;
+.Principal h1 {
+    font-size: 400%;
 }
+
 
 .Principal p {
     text-align: center;
+    margin-bottom: 1%;
+    font-size: 20%;
 }
 
 h3 {
