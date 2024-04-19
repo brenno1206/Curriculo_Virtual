@@ -5,8 +5,8 @@
     margin: 0;
 }
 
-nav,
-nav a {
+.head,
+.head a {
     background-color: #593325;
     color: #D9CBBF;
     text-decoration: none;
@@ -14,10 +14,10 @@ nav a {
     border-collapse: collapse;
 }
 
-nav a:hover {
+.head a:hover {
     background-color: #D9CBBF;
     color: #593325;
-    border-bottom: 3px solid #593325;
+    text-decoration: underline 2px;
 }
 
 .inicio {
@@ -37,7 +37,7 @@ nav a:hover {
     font-size: 45px;
 }
 
-p {
+.apresentacao {
     margin-bottom: 50px;
     margin-left: 50px;
     font-size: 20px;
@@ -49,7 +49,9 @@ p {
     font-size: 35px;
 }
 
-input, textarea, label {
+input,
+textarea,
+label {
     margin-left: 50px;
 }
 
@@ -61,6 +63,10 @@ textarea {
     border: ridge 2px #593325;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+textarea {
+    border-radius: 20px;
 }
 
 input:first-of-type,
@@ -80,10 +86,20 @@ label {
 .foto {
     border-radius: 100%;
     margin-top: 30px;
-
 }
 
-.imagens a:first-of-type {
+.social * {
+    text-decoration: none;
+    font-size: 40px;
+    color: #593325;
+}
+
+.social *:hover {
+    font-size: 60px;
+    color: #260B01;
+}
+
+.social a:first-of-type {
     margin-left: 240px;
 }
 
@@ -91,19 +107,20 @@ label {
     display: flex;
 }
 
-.info, .exp {
+.info,
+.exp {
     width: 40%;
     height: 150px;
     padding: 20px;
     margin: 20px;
 }
 
-
 .info h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 35px;
 }
+
 .info ul li {
     text-align: left;
     list-style: circle;
@@ -111,10 +128,64 @@ label {
     margin-left: 50px;
 }
 
-table, th, td {
-    border: solid 2px #593325;
+.exp h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
 }
 
-th, td {
+table {
+    table-layout: fixed;
+}
+
+table,
+th,
+td {
+    border: solid 2px #593325;
     border-collapse: collapse;
+    font-size: 20px;
+}
+
+th,
+td {
+    width: 200px;
+}
+
+th {
+    background-color: #593325;
+    color: #D9CBBF;
+    border-color: #260B01;
+}
+
+.footer {
+    bottom: 0%;
+    width: 100%;
+    position: absolute;
+    text-align: right;
+}
+
+.footer,
+.footer a,
+.footer p {
+    background-color: #593325;
+    color: #D9CBBF;
+    text-decoration: none;
+    padding: 20px 20px 20px 0px;
+    border-collapse: collapse;
+    padding-right: 0%;
+}
+
+.footer a {
+    padding: 20px;
+}
+
+.footer a:hover {
+    background-color: #D9CBBF;
+    color: #593325;
+    text-decoration: underline 2px;
+}
+
+.footer p {
+    text-align: left;
+    display: inline-block;
 }

@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo Virtual</title>
     <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <nav>
+    <nav class="head">
         <a href="index.html">Home</a>
         <a href="tecnologias.html">Habilidades e Experiências</a>
     </nav>
-    <div class="inicio">
+    <section class="inicio">
         <div class="apresentacao">
             <h2>Brenno Gomes Breda</h2>
 
@@ -22,25 +23,31 @@
             <h2>Contato</h2>
             <form action="" method="get">
                 <label for="text">Nome</label> <br>
-                <input type="text" id="name" name="name"> <br>
+                <input type="text" id="name" name="name" placeholder="Seu nome"> <br>
                 <label for="email">E-mail</label> <br>
-                <input type="email" id="email" name="email"> <br>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail"> <br>
                 <label for="text">Mensagem</label> <br>
-                <textarea id="Mensagem" name="Mensagem" rows="4" cols="52"></textarea> <br>
+                <textarea id="Mensagem" name="Mensagem" rows="4" cols="52" placeholder="Sua mensagem"></textarea> <br>
                 <input type="submit"> <br>
             </form>
         </div>
         <div class="imagens">
-            <img class="foto" src="Imagens\Perfil.jpeg" width="600" height="600" alt="foto do rosto"> <br>
-            <a href="https://www.instagram.com/brennogb0/?igsh=djhkd2Rxa3NzM25t&utm_source=qr" target="_blank"><img
-                    src="Imagens\Instagram_logo.png" width="40" height="40" alt="instagram"></a>
-            <a href="https://br.linkedin.com/in/brenno-gomes-breda-1a5b522b2" target="_blank"><img
-                    src="Imagens\Linkedin_logo.webp" width="50" height="50" alt="linkedin"></a>
-            <a href="https://github.com/brenno1206" target="_blank"><img src="Imagens\Github_logo.png" width="40"
-                    height="40" alt="Github"></a>
+            <img class="foto" src="Perfil.jpeg" width="600" height="600" alt="foto do rosto"> <br>
+            <div class="social">
+                <a href="https://www.instagram.com/brennogb0/?igsh=djhkd2Rxa3NzM25t&utm_source=qr" i
+                    class='bx bxl-instagram' target="_blank"></i></a>
+                <a href="https://br.linkedin.com/in/brenno-gomes-breda-1a5b522b2" class='bx bxl-linkedin-square'
+                    target="_blank"></i></a>
+                <a href="https://github.com/brenno1206" i class='bx bxl-github' target="_blank"></i></a>
+            </div>
         </div>
-    </div>
-
+    </section>
+    <nav class="footer">
+        <p>brennogbreda@gmail.com</p>
+        <p>(27)99850-7767</p>
+        <a href="index.html">Home</a>
+        <a href="tecnologias.html">Habilidades e Experiências</a>
+    </nav>
 </body>
 
 </html>
