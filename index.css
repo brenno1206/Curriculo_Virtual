@@ -11,10 +11,13 @@ nav a {
     color: #D9CBBF;
     text-decoration: none;
     padding: 20px;
+    border-collapse: collapse;
 }
 
-nav a {
-    border-right: 2px solid #D9CBBF;
+nav a:hover {
+    background-color: #D9CBBF;
+    color: #593325;
+    border-bottom: 3px solid #593325;
 }
 
 .inicio {
@@ -31,26 +34,43 @@ nav a {
 .apresentacao h2:first-of-type {
     text-align: center;
     padding-bottom: 50px;
+    font-size: 45px;
 }
 
 p {
     margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 20px;
 }
 
 .apresentacao h2:last-of-type {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    font-size: 35px;
+}
+
+input, textarea, label {
+    margin-left: 50px;
 }
 
 input,
 textarea {
     background-color: #E6D9CA;
-    font-size: 15px;
+    font-size: 20px;
+    border-radius: 30PX;
+    border: ridge 2px #593325;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 input:first-of-type,
-input:nth-of-type(2) {
+input:nth-of-type(2),
+textarea {
     width: 300px;
+}
+
+label {
+    font-size: 20px;
 }
 
 .imagens {
@@ -64,7 +84,7 @@ input:nth-of-type(2) {
 }
 
 .imagens a:first-of-type {
-    margin-left: 140px;
+    margin-left: 240px;
 }
 
 .main {
@@ -81,9 +101,20 @@ input:nth-of-type(2) {
 
 .info h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 35px;
 }
 .info ul li {
     text-align: left;
     list-style: circle;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+table, th, td {
+    border: solid 2px #593325;
+}
+
+th, td {
+    border-collapse: collapse;
 }
