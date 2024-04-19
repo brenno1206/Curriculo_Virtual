@@ -166,7 +166,8 @@ th {
 
 .footer,
 .footer a,
-.footer p {
+.cc p,
+.cc {
     background-color: #593325;
     color: #D9CBBF;
     text-decoration: none;
@@ -185,7 +186,15 @@ th {
     text-decoration: underline 2px;
 }
 
-.footer p {
+.cc {
+    bottom: 0%;
+    position: absolute;
     text-align: left;
-    display: inline-block;
+    display: flex;
+}
+
+.cc p {
+    padding: 0%;
+    padding-right: 20px;
+    padding-left: 20px;
 }
