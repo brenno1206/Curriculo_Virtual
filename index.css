@@ -49,6 +49,22 @@
     font-size: 35px;
 }
 
+.apresentacao p {
+    padding-bottom: 25px;
+}
+
+form {
+    border: solid 2px #593325;
+    border-radius: 30px;
+    width: 400px;
+    max-width: 400px;
+    position: absolute;
+    left: 20%;
+    transform: translate(-20%);
+
+
+}
+
 input,
 textarea,
 label {
@@ -59,7 +75,7 @@ input,
 textarea {
     background-color: #E6D9CA;
     font-size: 20px;
-    border-radius: 30PX;
+    border-radius: 12px;
     border: ridge 2px #593325;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -107,6 +123,24 @@ label {
     display: flex;
 }
 
+.info ul {
+    border: solid 2px #593325;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #E6D9CA;
+}
+
+.info li {
+    background-color: #E6D9CA;
+    list-style-type: none;
+}
+
+.info li:hover {
+    background-color: #D9CBBF;
+    border-radius: 10px;
+    list-style-type: circle;
+}
+
 .info,
 .exp {
     width: 40%;
@@ -144,6 +178,7 @@ td {
     border: solid 2px #593325;
     border-collapse: collapse;
     font-size: 20px;
+    background-color: #E6D9CA;
 }
 
 th,
@@ -153,7 +188,7 @@ td {
 
 th {
     background-color: #593325;
-    color: #D9CBBF;
+    color: #E6D9CA;
     border-color: #260B01;
 }
 
