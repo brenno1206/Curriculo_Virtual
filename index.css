@@ -151,7 +151,7 @@ label {
 
 .info h2 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 65px;
     font-size: 35px;
 }
 
@@ -168,11 +168,6 @@ label {
     font-size: 35px;
 }
 
-table {
-    table-layout: fixed;
-}
-
-table,
 th,
 td {
     border: solid 2px #593325;
@@ -190,6 +185,25 @@ th {
     background-color: #593325;
     color: #E6D9CA;
     border-color: #260B01;
+}
+
+thead th:first-of-type {
+    border-top-left-radius: 20px;
+    
+}
+
+thead th:last-of-type {
+    border-top-right-radius: 20px;
+}
+
+tfoot td {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+td {
+    border-collapse: collapse;
 }
 
 .footer {
