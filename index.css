@@ -136,6 +136,7 @@ label {
 }
 
 .info li:hover {
+    color: #593325;
     background-color: #D9CBBF;
     border-radius: 10px;
     list-style-type: circle;
@@ -164,47 +165,36 @@ label {
 
 .exp h2 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-size: 35px;
 }
 
-th,
-td {
-    border: solid 2px #593325;
+table {
     border-collapse: collapse;
+    border-spacing: 0;
+    width: 800px;
+    height: 200px;
+    border: solid 2px #593325;
+    border-radius: 20px;
     font-size: 20px;
-    background-color: #E6D9CA;
+    background-color: #593325;
+    overflow: hidden;
 }
 
-th,
-td {
-    width: 200px;
+tr td {
+    border: solid 2px #593325;
 }
+
 
 th {
     background-color: #593325;
     color: #E6D9CA;
-    border-color: #260B01;
 }
 
-thead th:first-of-type {
-    border-top-left-radius: 20px;
-    
+td:not(td:only-child) {
+    border-color: 3px solid  blue;
 }
 
-thead th:last-of-type {
-    border-top-right-radius: 20px;
-}
-
-tfoot td {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    text-align: center;
-}
-
-td {
-    border-collapse: collapse;
-}
 
 .footer {
     bottom: 0%;
